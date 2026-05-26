@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Password Strength Analyzer</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Password Strength Analyzer</h1>
+
+        <p class="subtitle">
+            Secure Your Digital Life
+        </p>
+
+        <!-- Password Input -->
+
+        <div class="password-box">
+
+            <input 
+                type="text"
+                id="password"
+                placeholder="Enter Your Password"
+            >
+
+        </div>
+
+        <!-- Strength Bar -->
+
+        <div class="strength-bar">
+
+            <div 
+                class="strength-fill"
+                id="strength-fill">
+            </div>
+
+        </div>
+
+        <!-- Strength Text -->
+
+        <div 
+            class="strength-text"
+            id="strength-text">
+
+            Start Typing...
+
+        </div>
+
+        <!-- Checklist -->
+
+        <div class="checklist">
+
+            <div class="item" id="length">
+                8+ Characters
+            </div>
+
+            <div class="item" id="uppercase">
+                Uppercase Letter
+            </div>
+
+            <div class="item" id="lowercase">
+                Lowercase Letter
+            </div>
+
+            <div class="item" id="number">
+                Number
+            </div>
+
+            <div class="item" id="symbol">
+                Special Symbol
+            </div>
+
+        </div>
+
+        <!-- Security Analysis -->
+
+        <div class="analysis">
+
+            <h2>Security Analysis</h2>
+
+            <p id="analysis-text">
+
+                Waiting for password input...
+
+            </p>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+
+            Developed with Cyber Security UI
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
